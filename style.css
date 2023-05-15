@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    color: black;
+}
+
+body{
+    background-color: #4AE9FF;
+}
+
+h1{
+    font-size: 4.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    background-color: white;
+    height: 525px;
+    width: 750px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin: 50px auto 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid black;
+    margin: 20px 0;
+    position: absolute;
+    width: 100%;
+    top: 70%;
+}
+
+#quote{
+    position: absolute;
+    top: 25px;
+    margin: 10px;
+    width: 675px;
+    height: 260px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+
+#author{
+    width: 675px;
+    height: 110px;
+    font-weight: 400;
+    font-size: 48px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+.circle{
+    position: absolute;
+    display: flex;
+    left: 30px;
+    top: 65%;
+
+}
+
+.red{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #FF0606;
+    background-color: #FF0606;
+    margin: 0 5px;
+}
+
+.green{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #07FF4D;
+    margin: 0 5px;
+}
+
+.blue{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #065BFF;
+    margin: 0 5px;
+}
